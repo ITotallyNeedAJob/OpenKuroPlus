@@ -1,0 +1,42 @@
+// OpenKuro+ (kuroplus) — buildable rebuild of KuroPlus-26.1.2-1.0.0-2.jar
+// MC 26.1+ is unobfuscated: non-remapping Loom, no mappings line.
+plugins { id 'net.fabricmc.fabric-loom' version '1.17-SNAPSHOT' }
+
+version = 'mc26.1.2-1.0.0'
+group = 'kat.respect'
+
+base { archivesName = 'openkuroplus' }
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.fabricmc.net/' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:26.1.2"
+    // MC 26.x is unobfuscated: loom 1.17 registers no mod* configurations here,
+    // plain implementation is the donor-proven pattern (no remapping involved).
+    implementation "net.fabricmc:fabric-loader:0.19.2"
+    // fabric-api declared "*" in fabric.mod.json; compile against the known-good
+    // 26.x build (same range LiquidBounce 1.26.2 uses). Not bundled.
+    implementation "net.fabricmc.fabric-api:fabric-api:0.153.0+26.2"
+    implementation "io.github.llamalad7:mixinextras-fabric:0.5.4"
+    // ClassTransform trio shipped as nested jars in META-INF/jars — compile
+    // against them, never bundle them (they are already in resources).
+    compileOnly files('libs/core-1.15.1.jar', 'libs/additionalclassprovider-1.15.1.jar', 'libs/mixinstranslator-1.15.1.jar')
+    // Only @Generated annotations survive in the decompiled source.
+    compileOnly "org.projectlombok:lombok:1.18.34"
+}
+
+loom { accessWidenerPath = file("src/main/resources/kuroplus.accesswidener") }
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xmaxerrs', '100000', '-Xmaxwarns', '0']
+    options.release = 25
+    options.fork = true
+    options.forkOptions.memoryMaximumSize = '2g'
+    options.failOnError = true
+}
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(25) } }

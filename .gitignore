@@ -1,0 +1,22 @@
+# gradle
+.gradle/
+build/
+
+# ide
+.idea/
+*.iml
+.vscode/
+out/
+
+# local working dirs (decompile dumps, staging, module jar sources)
+_stage/
+_decomp/
+_modulejar-sources/
+
+# scratch artifacts
+_keyutil-bytecode.txt
+_keymap.txt
+*.log
+
+# run dir
+run/

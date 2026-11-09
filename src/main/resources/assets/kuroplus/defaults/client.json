@@ -1,0 +1,308 @@
+{
+  "format_version": 4,
+  "client": "Kuro+",
+  "client_version": "1.0.0",
+  "active_profile": "default",
+  "ui": {
+    "panels": {
+      "BLATANT": {
+        "x": 171,
+        "y": 36,
+        "collapsed": false
+      },
+      "MOVEMENT": {
+        "x": 171,
+        "y": 36,
+        "collapsed": false
+      },
+      "RENDER": {
+        "x": 327,
+        "y": 36,
+        "collapsed": false
+      },
+      "WORLD": {
+        "x": 483,
+        "y": 36,
+        "collapsed": false
+      },
+      "MISC": {
+        "x": 639,
+        "y": 36,
+        "collapsed": false
+      },
+      "INTERFACE": {
+        "x": 795,
+        "y": 36,
+        "collapsed": false
+      },
+      "COMBAT": {
+        "x": 15,
+        "y": 36,
+        "collapsed": false
+      }
+    },
+    "config_panel": {
+      "x": 951,
+      "y": 36,
+      "collapsed": false
+    },
+    "theme": "Rainbow",
+    "render_engine": "Mobile (Shaders)",
+    "background": "None",
+    "scale": 0.8500000000000001
+  },
+  "gui_modules": {
+    "client.arraylists": {
+      "enabled": true,
+      "key": -1,
+      "settings": {
+        "Design": {
+          "type": "mode",
+          "value": "Connected"
+        },
+        "Position": {
+          "type": "mode",
+          "value": "Top Right"
+        },
+        "Sorting": {
+          "type": "mode",
+          "value": "Longest"
+        },
+        "Color Mode": {
+          "type": "mode",
+          "value": "Custom"
+        },
+        "Accent": {
+          "type": "color",
+          "value": -1952175
+        },
+        "Secondary Color": {
+          "type": "color",
+          "value": -13395500
+        },
+        "Wave Speed": {
+          "type": "number",
+          "value": 2.0
+        },
+        "Text Color": {
+          "type": "mode",
+          "value": "White"
+        },
+        "Custom Text Color": {
+          "type": "color",
+          "value": -1
+        },
+        "Info": {
+          "type": "mode",
+          "value": "Auto"
+        },
+        "Info Bracket": {
+          "type": "mode",
+          "value": "None"
+        },
+        "Info Color Mode": {
+          "type": "mode",
+          "value": "Dimmed"
+        },
+        "Info Colour": {
+          "type": "color",
+          "value": -3552806
+        },
+        "Info Size": {
+          "type": "number",
+          "value": 0.9
+        },
+        "Text Case": {
+          "type": "mode",
+          "value": "Normal"
+        },
+        "Background": {
+          "type": "boolean",
+          "value": true
+        },
+        "Blur": {
+          "type": "boolean",
+          "value": false
+        },
+        "Background Colour": {
+          "type": "color",
+          "value": 1342177280
+        },
+        "Outline": {
+          "type": "boolean",
+          "value": true
+        },
+        "Outline Mode": {
+          "type": "mode",
+          "value": "No Overlap"
+        },
+        "Outline Color": {
+          "type": "mode",
+          "value": "Subtle White"
+        },
+        "Custom Outline Color": {
+          "type": "color",
+          "value": 587202559
+        },
+        "Accent Bar": {
+          "type": "boolean",
+          "value": true
+        },
+        "Bar Width": {
+          "type": "number",
+          "value": 2.5
+        },
+        "Accent Glow": {
+          "type": "boolean",
+          "value": false
+        },
+        "Text Shadow": {
+          "type": "boolean",
+          "value": false
+        },
+        "Height": {
+          "type": "number",
+          "value": 15.0
+        },
+        "Font Size": {
+          "type": "number",
+          "value": 10.0
+        },
+        "Corner Radius": {
+          "type": "number",
+          "value": 1.5
+        },
+        "Padding": {
+          "type": "number",
+          "value": 5.0
+        },
+        "Spacing": {
+          "type": "number",
+          "value": 2.0
+        },
+        "Margin X": {
+          "type": "number",
+          "value": 2.0
+        },
+        "Margin Y": {
+          "type": "number",
+          "value": 36.0
+        },
+        "Scale": {
+          "type": "number",
+          "value": 0.8
+        },
+        "Smooth Animation": {
+          "type": "boolean",
+          "value": true
+        },
+        "Anim Speed": {
+          "type": "number",
+          "value": 14.0
+        },
+        "Watermark": {
+          "type": "boolean",
+          "value": true
+        },
+        "Watermark Style": {
+          "type": "mode",
+          "value": "Simple Text"
+        },
+        "Watermark Background": {
+          "type": "boolean",
+          "value": false
+        },
+        "FPS in Watermark": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    },
+    "client.clickgui": {
+      "enabled": false,
+      "key": 261,
+      "settings": {
+        "Render Engine": {
+          "type": "mode",
+          "value": "Mobile (Shaders)"
+        },
+        "Theme": {
+          "type": "mode",
+          "value": "Rainbow"
+        },
+        "Background": {
+          "type": "mode",
+          "value": "None"
+        },
+        "Config Screen": {
+          "type": "mode",
+          "value": "Side"
+        },
+        "Corners": {
+          "type": "mode",
+          "value": "Sharp"
+        },
+        "Transparency": {
+          "type": "number",
+          "value": 1.0
+        },
+        "Header Height": {
+          "type": "mode",
+          "value": "Slim (15px)"
+        },
+        "Module Height": {
+          "type": "mode",
+          "value": "Slim (14px)"
+        },
+        "Show Counters": {
+          "type": "boolean",
+          "value": true
+        },
+        "Scroll Speed": {
+          "type": "number",
+          "value": 10.0
+        },
+        "Descriptions": {
+          "type": "mode",
+          "value": "Full"
+        },
+        "Pause Game": {
+          "type": "mode",
+          "value": "Pause"
+        },
+        "Header Colour": {
+          "type": "color",
+          "value": -15461346
+        },
+        "Font Colour": {
+          "type": "color",
+          "value": -1
+        },
+        "Accent Colour": {
+          "type": "color",
+          "value": -50373
+        },
+        "Drawn": {
+          "type": "boolean",
+          "value": false
+        },
+        "Scale": {
+          "type": "number",
+          "value": 0.8500000000000001
+        },
+        "Range Split Click": {
+          "type": "boolean",
+          "value": false
+        },
+        "Reset Positions": {
+          "type": "boolean",
+          "value": false
+        },
+        "HUD Editor": {
+          "type": "boolean",
+          "value": false
+        }
+      }
+    }
+  }
+}

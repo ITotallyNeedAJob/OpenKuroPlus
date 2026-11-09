@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "kuroplus",
+  "version": "mc26.1.2-1.0.0",
+  "name": "OpenKuro+",
+  "description": "OpenKuro+ - community source rebuild of the Kuro+ client (MC 26.1.2)",
+  "authors": [
+    "kat"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/kuroplus/textures/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kat.respect.b2.KuroPlusMod"
+    ]
+  },
+  "mixins": [
+    "kuroplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": ">=26.1.2 <26.2",
+    "java": ">=25"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/additionalclassprovider-1.15.1.jar"
+    },
+    {
+      "file": "META-INF/jars/core-1.15.1.jar"
+    },
+    {
+      "file": "META-INF/jars/mixinstranslator-1.15.1.jar"
+    }
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/34Ck8RhEvt"
+  }
+}

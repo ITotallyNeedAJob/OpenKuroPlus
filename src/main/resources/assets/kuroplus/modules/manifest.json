@@ -1,0 +1,555 @@
+[
+  {
+    "id": "client.clickgui",
+    "name": "ClickGUI",
+    "mainClass": "kat.respect.b2.module.modules.client.ClickGUI",
+    "jar": "client.clickgui.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "client.arraylists",
+    "name": "ArrayLists",
+    "mainClass": "kat.respect.b2.module.modules.client.ArrayLists",
+    "jar": "client.arraylists.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.watermark",
+    "name": "Watermark",
+    "mainClass": "kat.respect.b2.module.modules.hud.Watermark",
+    "jar": "hud.watermark.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.coordinates",
+    "name": "Coordinates",
+    "mainClass": "kat.respect.b2.module.modules.hud.Coordinates",
+    "jar": "hud.coordinates.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.fps",
+    "name": "Fps",
+    "mainClass": "kat.respect.b2.module.modules.hud.Fps",
+    "jar": "hud.fps.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.ping",
+    "name": "Ping",
+    "mainClass": "kat.respect.b2.module.modules.hud.Ping",
+    "jar": "hud.ping.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.time",
+    "name": "Time",
+    "mainClass": "kat.respect.b2.module.modules.hud.Time",
+    "jar": "hud.time.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.bps",
+    "name": "Bps",
+    "mainClass": "kat.respect.b2.module.modules.hud.Bps",
+    "jar": "hud.bps.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.targethud",
+    "name": "TargetHud",
+    "mainClass": "kat.respect.b2.module.modules.hud.TargetHud",
+    "jar": "hud.targethud.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "hud.editor",
+    "name": "HudEditor",
+    "mainClass": "kat.respect.b2.module.modules.hud.HudEditor",
+    "jar": "hud.editor.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.killaura",
+    "name": "KillAura",
+    "mainClass": "kat.respect.b2.module.modules.combat.KillAura",
+    "jar": "combat.killaura.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.aimassist",
+    "name": "AimAssist",
+    "mainClass": "kat.respect.b2.module.modules.combat.AimAssist",
+    "jar": "combat.aimassist.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.antibot",
+    "name": "AntiBot",
+    "mainClass": "kat.respect.b2.module.modules.combat.AntiBot",
+    "jar": "combat.antibot.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.triggerbot",
+    "name": "TriggerBot",
+    "mainClass": "kat.respect.b2.module.modules.combat.TriggerBot",
+    "jar": "combat.triggerbot.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autocrystal",
+    "name": "AutoCrystal",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoCrystal",
+    "jar": "combat.autocrystal.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.crystaloptimizer",
+    "name": "CrystalOptimizer",
+    "mainClass": "kat.respect.b2.module.modules.combat.CrystalOptimizer",
+    "jar": "combat.crystaloptimizer.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.crystalaura",
+    "name": "CrystalAura",
+    "mainClass": "kat.respect.b2.module.modules.combat.CrystalAura",
+    "jar": "combat.crystalaura.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.fakelag",
+    "name": "FakeLag",
+    "mainClass": "kat.respect.b2.module.modules.combat.FakeLag",
+    "jar": "combat.fakelag.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.shieldstun",
+    "name": "ShieldStun",
+    "mainClass": "kat.respect.b2.module.modules.combat.ShieldStun",
+    "jar": "combat.shieldstun.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.stunweb",
+    "name": "StunWeb",
+    "mainClass": "kat.respect.b2.module.modules.combat.StunWeb",
+    "jar": "combat.stunweb.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.anchor",
+    "name": "Anchor",
+    "mainClass": "kat.respect.b2.module.modules.combat.Anchor",
+    "jar": "combat.anchor.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autoanchor",
+    "name": "AutoAnchor",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoAnchor",
+    "jar": "combat.autoanchor.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.anchormacro",
+    "name": "AnchorMacro",
+    "mainClass": "kat.respect.b2.module.modules.combat.AnchorMacro",
+    "jar": "combat.anchormacro.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.safeanchor",
+    "name": "SafeAnchor",
+    "mainClass": "kat.respect.b2.module.modules.combat.SafeAnchor",
+    "jar": "combat.safeanchor.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.maceswap",
+    "name": "MaceSwap",
+    "mainClass": "kat.respect.b2.module.modules.combat.MaceSwap",
+    "jar": "combat.maceswap.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.macekiller",
+    "name": "MaceKiller",
+    "mainClass": "kat.respect.b2.module.modules.combat.MaceKiller",
+    "jar": "combat.macekiller.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.lungeassist",
+    "name": "LungeAssist",
+    "mainClass": "kat.respect.b2.module.modules.combat.LungeAssist",
+    "jar": "combat.lungeassist.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.automace",
+    "name": "AutoMace",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoMace",
+    "jar": "combat.automace.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.wtap",
+    "name": "WTap",
+    "mainClass": "kat.respect.b2.module.modules.combat.WTap",
+    "jar": "combat.wtap.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.reach",
+    "name": "Reach",
+    "mainClass": "kat.respect.b2.module.modules.combat.Reach",
+    "jar": "combat.reach.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.hitbox",
+    "name": "Hitbox",
+    "mainClass": "kat.respect.b2.module.modules.combat.Hitbox",
+    "jar": "combat.hitbox.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.backtrack",
+    "name": "Backtrack",
+    "mainClass": "kat.respect.b2.module.modules.combat.Backtrack",
+    "jar": "combat.backtrack.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autoclicker",
+    "name": "AutoClicker",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoClicker",
+    "jar": "combat.autoclicker.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.criticals",
+    "name": "Criticals",
+    "mainClass": "kat.respect.b2.module.modules.combat.Criticals",
+    "jar": "combat.criticals.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autopot",
+    "name": "AutoPot",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoPot",
+    "jar": "combat.autopot.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autopotrefill",
+    "name": "AutoPotRefill",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoPotRefill",
+    "jar": "combat.autopotrefill.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autodrain",
+    "name": "AutoDrain",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoDrain",
+    "jar": "combat.autodrain.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.autocart",
+    "name": "AutoCart",
+    "mainClass": "kat.respect.b2.module.modules.combat.AutoCart",
+    "jar": "combat.autocart.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.velocity",
+    "name": "Velocity",
+    "mainClass": "kat.respect.b2.module.modules.combat.Velocity",
+    "jar": "combat.velocity.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.totemhit",
+    "name": "TotemHit",
+    "mainClass": "kat.respect.b2.module.modules.combat.TotemHit",
+    "jar": "combat.totemhit.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.targetfilter",
+    "name": "TargetFilter",
+    "mainClass": "kat.respect.b2.module.modules.combat.TargetFilter",
+    "jar": "combat.targetfilter.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "combat.grapple",
+    "name": "Grapple",
+    "mainClass": "kat.respect.b2.module.modules.combat.Grapple",
+    "jar": "combat.grapple.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.movementfix",
+    "name": "MovementFix",
+    "mainClass": "kat.respect.b2.module.modules.movement.MovementFix",
+    "jar": "movement.movementfix.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.blink",
+    "name": "Blink",
+    "mainClass": "kat.respect.b2.module.modules.movement.Blink",
+    "jar": "movement.blink.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.divebomb",
+    "name": "DiveBomb",
+    "mainClass": "kat.respect.b2.module.modules.movement.DiveBomb",
+    "jar": "movement.divebomb.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.keypearlmacro",
+    "name": "KeyPearlMacro",
+    "mainClass": "kat.respect.b2.module.modules.movement.KeyPearlMacro",
+    "jar": "movement.keypearlmacro.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.pearlcatch",
+    "name": "PearlCatch",
+    "mainClass": "kat.respect.b2.module.modules.movement.PearlCatch",
+    "jar": "movement.pearlcatch.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.jumpreset",
+    "name": "JumpReset",
+    "mainClass": "kat.respect.b2.module.modules.movement.JumpReset",
+    "jar": "movement.jumpreset.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.speed",
+    "name": "Speed",
+    "mainClass": "kat.respect.b2.module.modules.movement.Speed",
+    "jar": "movement.speed.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "movement.fly",
+    "name": "Fly",
+    "mainClass": "kat.respect.b2.module.modules.movement.Fly",
+    "jar": "movement.fly.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.teams",
+    "name": "Teams",
+    "mainClass": "kat.respect.b2.module.modules.misc.Teams",
+    "jar": "misc.teams.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.friends",
+    "name": "Friends",
+    "mainClass": "kat.respect.b2.module.modules.misc.Friends",
+    "jar": "misc.friends.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.discordpresence",
+    "name": "DiscordPresence",
+    "mainClass": "kat.respect.b2.module.modules.misc.DiscordPresence",
+    "jar": "misc.discordpresence.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.notifications",
+    "name": "Notifications",
+    "mainClass": "kat.respect.b2.module.modules.misc.Notifications",
+    "jar": "misc.notifications.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.autoinventorytotem",
+    "name": "AutoInventoryTotem",
+    "mainClass": "kat.respect.b2.module.modules.misc.AutoInventoryTotem",
+    "jar": "misc.autoinventorytotem.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.hovertotem",
+    "name": "HoverTotem",
+    "mainClass": "kat.respect.b2.module.modules.misc.HoverTotem",
+    "jar": "misc.hovertotem.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.totemoffhand",
+    "name": "TotemOffhand",
+    "mainClass": "kat.respect.b2.module.modules.misc.TotemOffhand",
+    "jar": "misc.totemoffhand.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.invitems",
+    "name": "InvItems",
+    "mainClass": "kat.respect.b2.module.modules.misc.InvItems",
+    "jar": "misc.invitems.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.nameprotect",
+    "name": "NameProtect",
+    "mainClass": "kat.respect.b2.module.modules.misc.NameProtect",
+    "jar": "misc.nameprotect.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.autogg",
+    "name": "AutoGG",
+    "mainClass": "kat.respect.b2.module.modules.misc.AutoGG",
+    "jar": "misc.autogg.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "misc.gamblerigger",
+    "name": "GambleRigger",
+    "mainClass": "kat.respect.b2.module.modules.misc.GambleRigger",
+    "jar": "misc.gamblerigger.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.nametags",
+    "name": "NameTags",
+    "mainClass": "kat.respect.b2.module.modules.render.NameTags",
+    "jar": "render.nametags.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.pearlpredict",
+    "name": "PearlPredict",
+    "mainClass": "kat.respect.b2.module.modules.render.PearlPredict",
+    "jar": "render.pearlpredict.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.freelook",
+    "name": "FreeLook",
+    "mainClass": "kat.respect.b2.module.modules.render.FreeLook",
+    "jar": "render.freelook.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.freecam",
+    "name": "FreeCam",
+    "mainClass": "kat.respect.b2.module.modules.render.FreeCam",
+    "jar": "render.freecam.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.jumpcircles",
+    "name": "JumpCircles",
+    "mainClass": "kat.respect.b2.module.modules.render.JumpCircles",
+    "jar": "render.jumpcircles.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.targetglow",
+    "name": "TargetGlow",
+    "mainClass": "kat.respect.b2.module.modules.render.TargetGlow",
+    "jar": "render.targetglow.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.esp",
+    "name": "ESP",
+    "mainClass": "kat.respect.b2.module.modules.render.ESP",
+    "jar": "render.esp.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.storageesp",
+    "name": "StorageESP",
+    "mainClass": "kat.respect.b2.module.modules.render.StorageESP",
+    "jar": "render.storageesp.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.chunkfinder",
+    "name": "ChunkFinder",
+    "mainClass": "kat.respect.b2.module.modules.render.ChunkFinder",
+    "jar": "render.chunkfinder.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.blockesp",
+    "name": "BlockESP",
+    "mainClass": "kat.respect.b2.module.modules.render.BlockESP",
+    "jar": "render.blockesp.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.stashfinder",
+    "name": "StashFinder",
+    "mainClass": "kat.respect.b2.module.modules.render.StashFinder",
+    "jar": "render.stashfinder.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.xray",
+    "name": "XRay",
+    "mainClass": "kat.respect.b2.module.modules.render.XRay",
+    "jar": "render.xray.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.zoom",
+    "name": "Zoom",
+    "mainClass": "kat.respect.b2.module.modules.render.Zoom",
+    "jar": "render.zoom.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.nohurtcam",
+    "name": "NoHurtCam",
+    "mainClass": "kat.respect.b2.module.modules.render.NoHurtCam",
+    "jar": "render.nohurtcam.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "render.animations",
+    "name": "Animations",
+    "mainClass": "kat.respect.b2.module.modules.render.Animations",
+    "jar": "render.animations.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "world.fastplace",
+    "name": "FastPlace",
+    "mainClass": "kat.respect.b2.module.modules.world.FastPlace",
+    "jar": "world.fastplace.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "world.safewalk",
+    "name": "SafeWalk",
+    "mainClass": "kat.respect.b2.module.modules.world.SafeWalk",
+    "jar": "world.safewalk.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  },
+  {
+    "id": "world.scaffold",
+    "name": "Scaffold",
+    "mainClass": "kat.respect.b2.module.modules.world.Scaffold",
+    "jar": "world.scaffold.jar",
+    "minecraft": ["1.21.11", "26.1", "26.1.1", "26.1.2", "26.2", "26.3"]
+  }
+]

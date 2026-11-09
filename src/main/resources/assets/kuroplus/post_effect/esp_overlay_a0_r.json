@@ -1,0 +1,82 @@
+{
+    "targets": {
+        "edge": {},
+        "swap": {}
+    },
+    "passes": [
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "kuroplus:post/esp_edge",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline"
+                }
+            ],
+            "output": "edge"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "kuroplus:post/esp_composite",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "edge"
+                },
+                {
+                    "sampler_name": "Edge",
+                    "target": "edge"
+                },
+                {
+                    "sampler_name": "Body",
+                    "target": "minecraft:entity_outline"
+                }
+            ],
+            "uniforms": {
+                "EspConfig": [
+                    {
+                        "name": "FillAlpha",
+                        "type": "float",
+                        "value": 0.25
+                    },
+                    {
+                        "name": "RimStrength",
+                        "type": "float",
+                        "value": 1.0
+                    },
+                    {
+                        "name": "GlowStrength",
+                        "type": "float",
+                        "value": 0.0
+                    }
+                ]
+            },
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                }
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            "output": "minecraft:entity_outline"
+        }
+    ]
+}
